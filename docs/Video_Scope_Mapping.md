@@ -1,88 +1,106 @@
-# ARC Demo Video — New Scope Mapping
+# ARC360 Demo Video — Scope Mapping
 
-How the Stage 1 / 2 / 3 scope (see `ARC_Roadmap_Scope.md`) lands on the existing
-seven-scene video. The seven-step spine is unchanged: **Set up · Collect ·
-Prepare · Review · Discuss · Plan · Track**. Only the nuances inside each step
-move.
+How the agreed nine-stage build plan (see `ARC_Roadmap_Scope.md`) lands on the
+existing demo video. Supersedes the earlier seven-step reading.
 
-Capability IDs below (1.3, 2.2, …) refer to the tables in `ARC_Roadmap_Scope.md`.
+**Headline: the video's spine is wrong.** The current cut is built on seven steps
+— Set up · Collect · Prepare · Review · Discuss · Plan · Track — with a seven-dot
+progress rail and a title card reading "7 KEY INTERACTION SCENARIOS". The agreed
+plan has nine stages. The rail, the title card and the scene count all change.
 
 ---
 
-## 1. Conflicts — the video currently claims Stage 2 capability as if it ships in Stage 1
+## 1. Seven scenes to nine
 
-These are the ones that matter. Left as-is, the video over-promises against the
-September 26 build.
+| Video today | Becomes | Note |
+|---|---|---|
+| 1 · Set up | **1 · Launch the Cycle** *and* **3 · 360 Survey Prep** | One scene splits into two. Admin launches and nominates; the evaluator confirms later, as a separate step with a separate actor. |
+| — | **2 · Self-Evaluation** | Entirely new scene. |
+| 2 · Collect | **4 · Feedback Collection** | Holds. Add secure transcript storage. |
+| 3 · Prepare | **5 · Evaluator Preparation** | Holds, with two corrections. |
+| 4 · Review | **6 · Evaluatee Preparation** | Holds as designed. |
+| 5 · Discuss | **7 · Feedback Discussion** | **Deferred in Stage 1** — loses its entire payload. |
+| 6 · Plan | **8 · Development Planning** | Holds, with one correction. |
+| 7 · Track | **9 · Track Progress** | Holds as designed. |
 
-| # | Scene | Video says today | Scope says | Fix |
+Net: two new scenes to build, one scene to hollow out, four to correct, three
+that hold.
+
+## 2. Corrections — the video claims capability Stage 1 will not have
+
+| # | Scene | Video says today | Agreed Stage 1 | Fix |
 |---|---|---|---|---|
-| C1 | 1 · Set up | "Assistant recommends respondents — with a reason for each" | **1.3** evaluator-*confirmed* lists; agent-generated is **2.2** | Rewrite to evaluator building/confirming the list. Screen must not show agent suggestions. |
-| C2 | 1 · Set up | "Evaluator stays in control: approve & launch" + callout "One-click launch" | **1.1** cycles are **admin**-launched | Launch authority moves to admin. Evaluator's control is over the respondent list, not the launch. |
-| C3 | 3 · Prepare | Competency grid has a **"Last cycle"** column and a **"Last cycle vs. current"** chip | **1.5** explicitly *without* a historical trend view; cross-cycle is **2.3 / 2.6** | Remove the column and the chip from the Figma screen. Grid = Self · Respondents · Your rating. |
-| C4 | 6 · Plan | "Assistant drafts activities from the discussion" + callout "AI-drafted, human-approved" | **2.5** goals-from-transcript is Stage 2; Stage 1 is **1.7** employee-facing goal-setting | Rewrite to employee-led goal-setting, assistant-supported — not transcript-derived. |
-| C5 | 5 · Discuss | "Transcript captured, uploaded & processed" (a `.vtt` shown as uploaded) | **2.4** *live* capture is Stage 2; manual upload is not listed in Stage 1 | **Open question — see Q1.** |
+| C1 | 1 · Launch | "Assistant recommends respondents — with a reason for each" | The **administrator** nominates respondents | Nomination is a human admin act, not an agent recommendation. Agent-generated lists are Stage 2. |
+| C2 | 1 · Launch | "Evaluator stays in control: approve & launch" + "One-click launch" callout | The **administrator** launches; employee and evaluator are *notified* | Launch authority and the persona line both change. The evaluator's moment moves to scene 3. |
+| C3 | 5 · Evaluator Prep | Competency grid carries a **"Last cycle"** column and a **"Last cycle vs. current"** chip | "Two drafts anchored to this cycle only — **no historical trend view**" | Remove the column and the chip. Grid is Self · Respondents · Your rating. |
+| C4 | 8 · Development Planning | "Assistant drafts activities from the discussion" | "Goals sourced from **Evaluator Preparation**" | Goals derive from the evaluator's write-up, not the conversation. Rewrite the bullet and the callout. |
+| C5 | 7 · Feedback Discussion | "Transcript captured, uploaded & processed" — a `.vtt` shown mid-upload, callout "Nothing gets lost" | **Deferred — no meeting transcript capture** | The scene's entire payload is Stage 2. See §4. |
 
-## 2. Gaps — Stage 1 scope with no screen time at all
+## 3. Additions — agreed Stage 1 capability with no screen time
 
-| # | Capability | Where it should live | Note |
+| # | Scene | Capability | Note |
 |---|---|---|---|
-| G1 | **1.2** Manual evidence attachment for self-evaluations | Scene 2 · Collect | Biggest gap. There is no self-evaluation anywhere in the current video, yet Scene 3's grid has a "Self" column that depends on it. Self-eval must happen before the evaluator writes, so it belongs in Collect — as a second screen in that scene, keeping the seven-step spine intact. |
-| G2 | **1.5** *Two versions* of the evaluator draft | Scene 3 · Prepare | Video shows a single draft report. Needs a version switch / "v1 · v2" affordance on the screen. |
-| G3 | **1.4** *Secure* transcripts | Scene 2 · Collect | The AI-led interview is shown well; the security and handling of the resulting transcript is not. One bullet + a visual cue. |
+| A1 | **2 · Self-Evaluation** | Employee rates themselves against competencies; evidence attached manually | A whole new scene, and a load-bearing one: scene 5's grid has a *Self* column that this stage produces. |
+| A2 | **3 · 360 Survey Prep** | Evaluator reviews nominations and confirms the final respondent list | New scene, though it inherits the respondent-list screen from the old scene 1 — reframed from agent-recommends to evaluator-confirms. |
+| A3 | 4 · Feedback Collection | Transcripts stored securely | One bullet and one visual cue on an otherwise strong scene. |
+| A4 | 5 · Evaluator Prep | *Two* drafts | The video shows one. See Q1. |
 
-## 3. Not in the video — later stages
+## 4. What to do with scene 7
 
-| # | Capability | Recommendation |
+The Feedback Discussion is a real stage of the cycle but has no Stage 1 system
+capability. Three options, in order of preference:
+
+1. **Keep it, honestly.** The conversation happens; ARC holds the cycle while it
+   does. Cut the transcript upload, the processing bar and "Nothing gets lost".
+   The scene becomes a short beat: the cycle pauses for a human conversation. This
+   keeps the nine-stage spine visible and sets up Stage 2 naturally.
+2. Keep it as a roadmap beat, visibly marked as Stage 2.
+3. Cut it and show eight scenes — not recommended: the rail would no longer match
+   the agreed plan the client signed off.
+
+Recommendation: **option 1.**
+
+## 5. Stage 2 and Stage 3
+
+Every Stage 2 capability attaches to a stage in the nine — including informal
+feedback, which sits under stage 1, Launch the Cycle. Stage 3 spans the whole
+cycle. Recommendation is unchanged from the earlier draft: keep scenes 1–9
+Stage-1-true and collect Stage 2 and Stage 3 into a single closing "What comes
+next" scene, rather than badging future capability inline where a screenshot
+would strip the label.
+
+## 6. Figma exports needed
+
+2x scale, >=2000px wide, ~3:2 aspect, no Figma chrome, no baked-in drop shadow.
+
+| File | Scene | Must show · must not show |
 |---|---|---|
-| N1 | **2.7** Informal feedback prompted by collaboration signals (max 3 touches/person/year, no formal write-up) | Genuinely new surface, not a nuance on an existing step. Belongs in a roadmap scene, not in the seven-step walkthrough. |
-| N2 | **Stage 3** Year-end adaptation | Same — roadmap scene. |
+| `s1_launch.png` | 1 · Launch the Cycle | Admin launching and nominating; employee + evaluator notified. **No** agent recommendations, **no** evaluator launch button. |
+| `s2_selfeval.png` | 2 · Self-Evaluation | **New.** Employee rating against competencies; manually attached evidence. |
+| `s3_surveyprep.png` | 3 · 360 Survey Prep | **New.** Evaluator reviewing admin nominations, confirming the final list. |
+| `s4_collection.png` | 4 · Feedback Collection | Anonymous AI-led interview; secure transcript storage cue. |
+| `s5_evalprep.png` | 5 · Evaluator Preparation | Grid: Self · Respondents · Your rating. **Two** drafts. **No** "Last cycle" column, **no** trend chip. |
+| `s6_evalteeprep.png` | 6 · Evaluatee Preparation | Employee-facing review and goal-setting. Holds. |
+| `s7_discussion.png` | 7 · Feedback Discussion | Cycle on hold for an off-system conversation. **No** transcript capture of any kind. |
+| `s8_devplanning.png` | 8 · Development Planning | Goals sourced from the evaluator's write-up. **Not** from a transcript. |
+| `s9_track.png` | 9 · Track Progress | Mobile progress tracking against the plan. Holds. |
+| `s10_roadmap.png` | 10 · What comes next | Optional — can be drawn natively. |
 
-## 4. Recommended structure
+## 7. Also changing
 
-**Keep the seven scenes Stage-1-true, then add one closing roadmap scene.**
+- **Title card** — "7 KEY INTERACTION SCENARIOS" becomes 9.
+- **Progress rail** — seven dots become nine, in every scene. Labels take the
+  agreed stage names.
+- **Runtime** — currently 3:19. Two new scenes add roughly 40-50s of narration;
+  scene 7 gets shorter. Expect ~3:45 unless the script is tightened.
+- **Encode quality** — 342 kb/s at 1080p is too low for real UI screenshots; move
+  to a CRF-based encode (~CRF 18-20).
 
-Every screen and every bullet in scenes 1–7 reflects only what exists on
-September 26. Stage 2 and Stage 3 capabilities (agent-generated lists, cross-cycle
-trends, live capture, goals-from-transcript, informal feedback, year-end) are
-collected into a single "What comes next" scene at the end, on the Stage 2 /
-Stage 3 timeline.
+## 8. Open questions
 
-Why this over badging each capability inline with a "Stage 2" chip: the demo's
-credibility rests on the viewer believing everything they just watched is real
-in September. Mixing shipped and future capability inside the same screen, even
-labelled, blurs that — and small on-screen chips are the first thing lost when
-someone screenshots a frame for a deck.
-
-## 5. Figma screens needed
-
-One export per screen, 2x scale, ≥2000px wide, ~3:2 aspect, no Figma chrome, no
-baked-in drop shadow.
-
-| File | Scene | Must show / must not show |
-|---|---|---|
-| `s1_setup.png` | 1 · Set up | Admin-launched cycle; evaluator confirming a respondent list. **No** agent-suggested respondents. |
-| `s2a_collect_interview.png` | 2 · Collect | AI-led feedback interview; anonymity + secure transcript cue. |
-| `s2b_collect_selfeval.png` | 2 · Collect | **New.** Self-evaluation with manually attached evidence. |
-| `s3_prepare.png` | 3 · Prepare | Competency grid: Self · Respondents · Your rating. Draft report with **v1 / v2** version switch. **No** "Last cycle" column, **no** trend chip. |
-| `s4_review.png` | 4 · Review | Evaluatee reviewing feedback; goal progress; coach support. |
-| `s5_discuss.png` | 5 · Discuss | Pending Q1 — either manual transcript upload, or cycle-on-hold with no transcript. |
-| `s6_plan.png` | 6 · Plan | Employee-led goal-setting, assistant-supported. **Not** drafted from a transcript. |
-| `s7_track.png` | 7 · Track | Mobile progress tracking. Closest to correct today. |
-| `s8_roadmap.png` | 8 · What comes next | Optional — can be drawn natively rather than designed. |
-
-## 6. Open questions
-
-1. **Scene 5 (Discuss) — what happens to the feedback discussion in Stage 1?**
-   Stage 1 lists secure transcripts for the *AI-led feedback interviews* (1.4) but
-   says nothing about the evaluator–evaluatee discussion; live capture is Stage 2
-   (2.4). Is manual transcript upload in the September build, or does the cycle
-   simply pause for an off-system conversation with nothing captured?
-   *Working assumption until told otherwise: manual upload is in, live capture is
-   not.* This decides both the Scene 5 screen and whether Scene 6 has any
-   transcript to reference.
-2. **"2 versions of evaluator drafts" (1.5)** — two AI-generated alternatives the
-   evaluator picks between, or v1/v2 revisions of one draft over time? Changes the
-   Scene 3 screen.
-3. **Admin-launched cycles (1.1)** — is the admin a new persona on screen in Scene 1,
-   or off-screen setup with the evaluator picking up a cycle already launched? The
-   scene's persona line ("Evaluator + Assistant Agent") depends on this.
+1. **"Two drafts anchored to this cycle only" (stage 5)** — two AI-generated
+   alternatives the evaluator picks between, or v1/v2 revisions of a single draft?
+   The screen differs substantially: a side-by-side choice versus a version history.
+2. **Product name** — the build plan says **ARC360** and this repo is
+   `ExecArc-360`, but the video's wordmark and every on-screen reference say
+   **ARC**. Which is correct for the client-facing cut?
